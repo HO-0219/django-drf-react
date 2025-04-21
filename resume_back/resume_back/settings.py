@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-x=r_qm6)vcs^6r4y-2kpg=#*za3w8@iq(@$s3wik)4c$aqxt2)'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -128,7 +128,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'resum', #데이터 베이스 이름
         'USER': 'root', # 사용자 이름 
-        'PASSWORD': 'k9857470', # 비밀번호
+        'PASSWORD': '@@@@@@', # 비밀번호
         'HOST': 'localhost', # 원격 서버 주소 
         'PORT': '3306', # 기본 포트 
         'OPTIONS': {
